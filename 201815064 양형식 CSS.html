@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+    <style>
+
+        .Indent {text-indent: 20px;}  
+        .Indent2 {text-indent: 50px;}
+
+        #box1 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 730px;
+            height: 50px;
+            line-height: 0px;
+            display: block;
+            text-align: center;
+            background: #e3afed;
+            z-index: 400;
+        }
+
+        #box2 {
+            position: absolute;
+            top: 50px;
+            left: 0px;
+            width: 200px;
+            height: 350px;
+            background: #ffd800;
+            z-index: 300;
+        }
+
+        #box3 {
+            position: absolute;
+            top: 50px;
+            left: 200px;
+            width: 530px;
+            height: 350px;
+            background: yellow;
+            z-index: 200;
+        }
+
+        #box4 {
+            position: absolute;
+            top: 400px;
+            left: 0px;
+            width: 730px;
+            height: 30px;
+            line-height: 0px;
+            display: block;
+            text-align: center;
+            background: #954b4b;
+            z-index: 100;
+        }
+
+        #box5 {
+            position: absolute;
+            top: 430px;
+            left: 0px;
+            width: 730px;
+            height: 10px;
+            background: #efe5d0;
+            z-index: 0;
+        }
+
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <div id = "box1"> <h1> My Blog Page </h1>  </div>
+
+    <div id = "box2"> 
+        <h2 class="Indent"> Links </h2>
+
+        <ul style = 'list-style-type:disc; list-style-position:inside;'>
+            <li> <a href = "http://w3c.or.kr/" target = "_blank"> W3C </a> </li>
+            <li> <a href = "https://www.mozilla.org/ko" target = "_blank"> MOZILLA </a> </li>
+            <li> <a href = "https://htmldog.com/" target = "_blank"> HTML DOGS </a> </li>
+        </ul>
+
+        <p class = "Indent2"><img src = "https://w.namu.la/s/bfa5829d94ab603b94884d75e38c7daeae34fb1547b0924efba70a9727ed1be6f15c4a2ebc55e1658e0ff907fd71ad826083ac7cc2a831a1ab9b45ff661751786c3fe30f47f603073dff7367a35470b696e57fedabe7dd1a0df4eec6804605c44cbf31fb59f235df06d98db5a691e645 
+                                  " height = "100" width = "100" /> </p>
+        
+        <p class = "Indent2"> 상명대학교 </p>
+    </div>
+
+    <div id = "box3">
+        <h3 class = "Indent"> Semantic Tags </h3>
+        <p class = "Indent"> 시멘틱 요소(Semantic elements)들은 브라우저에게 요소의 의미나 <br> </p>
+        <p class = "Indent"> 목적을 명확하게 알려주는 요소이다. </p>
+        
+        <h3 class = "Indent"> div와 span </h3>
+        <p class = "Indent"> div는 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 <br> </p>
+        <p class = "Indent"> 사용되는 태그이다. span 요소는 인라인 요소로서 텍스트를 위한 <br> </p>
+        <p class = "Indent"> 컨테이너로 사용할 수 있다. </p>
+    </div>
+
+    <div id = "box4"> <p style = "color:white"> Copyright (c) 2021 Yang </p> </div>
+
+    <div id = "box5"> </div>
+
+</body>
+
+</html>
